@@ -1,0 +1,27 @@
+[core]
+	editor = vim
+
+[alias]
+	st = status
+	ss = status -s
+	stt = status -uno
+	br = branch
+	dh = diff HEAD
+	dhh = diff HEAD^
+	dwd = diff --word-diff
+
+	a = add
+	au = add -u
+	co = checkout
+	cm = commit
+	cmm = commit -m
+	cmma = commit -m -a
+	cman = commit --amend --no-edit
+	p = pull
+	pp = pull -p
+
+	rbm = rebase master
+	rbi = rebase -i HEAD^
+	rbii = rebase -i HEAD^^
+[push]
+	default = current
