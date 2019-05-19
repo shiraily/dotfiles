@@ -15,7 +15,7 @@
 	co = checkout
 	cm = commit
 	cmm = commit -m
-	cmma = commit -m -a
+	cmam = commit -a -m
 	cman = commit --amend --no-edit
 	p = pull
 	pp = pull -p
