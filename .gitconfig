@@ -19,9 +19,15 @@
 	cman = commit --amend --no-edit
 	p = pull
 	pp = pull -p
+	pf = push --force-with-lease
+	pushf = push --force-with-lease
 
 	rbm = rebase master
 	rbi = rebase -i HEAD^
 	rbii = rebase -i HEAD^^
 [push]
 	default = current
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
