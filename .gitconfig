@@ -1,3 +1,10 @@
+[user]
+	name = Takaaki Shirai
+	email = 25303121+shiraily@users.noreply.github.com
+
+[includeIf "gitdir:/Users/shirai/tsunagu/"]
+	path = ~/.gitconfig_tsunagu
+
 [core]
 	editor = vim
 
@@ -17,10 +24,10 @@
 	cmm = commit -m
 	cmam = commit -a -m
 	cman = commit --amend --no-edit
+
+	fp = fetch -p
 	p = pull
 	pp = pull -p
-	pf = push --force-with-lease
-	pushf = push --force-with-lease
 
 	rbm = rebase master
 	rbi = rebase -i HEAD^
@@ -31,3 +38,7 @@
 	insteadOf = https://bitbucket.org/
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[commit]
+	template = /Users/shirai/.git/.commit_template
+[init]
+	defaultBranch = main
