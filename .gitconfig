@@ -39,6 +39,6 @@
 [url "git@github.com:"]
 	insteadOf = https://github.com/
 [commit]
-	template = /Users/shirai/.git/.commit_template
+	template = ~/.git/.commit_template
 [init]
 	defaultBranch = main
